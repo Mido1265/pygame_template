@@ -35,7 +35,7 @@ class Field:
         # self.load_images()
         # self.load_sounds()
 
-        # オブジェクト生成時に自動格納されるリストを設定
+        # オブジェクト生成時の自動格納先リストを設定
         self.Coins = []
         Coin.set_list(self.Coins)
 
