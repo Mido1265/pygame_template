@@ -21,8 +21,6 @@ class Camera():
         self.x += x
         self.y += y
 
-        
-    
     def draw(self, screen):
         # 登録されているオブジェクトを描画
         for mapobjs in self.OBJlist:
